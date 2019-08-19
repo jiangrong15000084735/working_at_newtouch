@@ -1,0 +1,703 @@
+        /* 进度条样式 */
+        
+        #app .el-step__head.is-success {
+            color: #ba7e10;
+            border-color: #ba7e10;
+        }
+        
+        #app .el-step__title.is-success {
+            color: #ba7e10;
+        }
+        
+        #app .el-step__line {
+            background: #d9d9d9;
+        }
+        
+        #app .el-step__head.is-finish {
+            border-color: #ba7e10;
+        }
+        
+        #app .bidsMethods .el-step__head.is-finish .el-step__icon.is-text,
+        #app .taskDetail .el-step__head.is-finish .el-step__icon.is-text {
+            cursor: pointer;
+        }
+        
+        #app .el-step__head.is-finish .el-step__icon.is-text {
+            background-image: linear-gradient(-90deg, #f3daa4 6%, #f2cd89 98%);
+            border: none;
+            font: 0.875rem /1.375rem "PingFangSC-Regular";
+            color: #333333;
+            text-align: center;
+        }
+        
+        #app .el-step__title.is-finish {
+            font: 1rem/1.5rem "PingFangSC-Semibold";
+            color: #ba7e10;
+        }
+        /* .bidsMethods .el-step__icon, .is-text{background-color:none;} */
+        /* #app .el-radio {
+  margin: 0.2rem 0.8rem 0.2rem 0;
+}
+
+#app .el-radio a {
+  margin-left: 0.8rem;
+} */
+        
+        #app .el-step__head.is-process {
+            font: 0.875rem/1.375rem "PingFangSC-Regular";
+            color: rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+        /* #app .el-radio__label {
+  font: 0.24rem/0.3rem "PingFangSC-Regular";
+  text-align: left;
+  color: #333333 !important;
+} */
+        
+        .open-tender-radio .el-radio__label {
+            font: 1rem/1.125rem "PingFangSC-Regular" !important;
+            color: #666666 !important;
+        }
+        
+        .bidsMethods .el-step__icon,
+        .is-text {
+            background-color: none;
+        }
+        
+        #app .el-step__icon-inner.is-status {
+            color: #ba7e10 !important;
+        }
+        /* 线 */
+        
+        #app .el-step__line {
+            margin: 0 1rem !important;
+        }
+        
+        #app .el-step__line {
+            background: #d9d9d9;
+        }
+        /* 完成状态 */
+        
+        #app .el-step__head.is-success .el-step__icon.is-text {
+            border: 1px solid #ba7e10 !important;
+        }
+        
+        #app .el-step__head.is-success {
+            color: #ba7e10;
+            border-color: #ba7e10;
+        }
+        
+        #app .el-step__title.is-success {
+            color: #ba7e10;
+            font: 1rem/1.5rem "PingFangSC-Semibold";
+        }
+        /* 进行中状态 */
+        
+        #app .el-step__title.is-process {
+            opacity: 0.45;
+            font: 1rem "PingFangSC-Regular";
+            color: #333333;
+            text-align: center;
+            line-height: 2.375rem
+        }
+        
+        #app .achievements-require-from .el-input__inner {
+            width: 100%;
+            height: 2.875rem;
+            background-color: #f8f8f8;
+        }
+        
+        #app .achievements-require-from .el-input {
+            width: 100%;
+        }
+        
+        #app .bidsMethods .el-step__icon.is-text {
+            cursor: pointer;
+        }
+        
+        #app .taskDetail .el-step__icon.is-text {
+            cursor: pointer;
+        }
+        
+        #app .el-step__icon.is-text {
+            border: 1px solid rgba(0, 0, 0, 0.15);
+        }
+        
+        #app .el-step__icon-inner {
+            font: 0.875rem/1.375rem "PingFangSC-Regular";
+            color: rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+        
+        .mingzhu-show-other .el-input__inner {
+            width: 660px;
+        }
+        
+        #app .bidsDepth .el-radio {
+            margin: 0;
+        }
+        
+        #app .mingzhu-depth .mingzhu-show-right .el-radio {
+            margin-right: 0.16rem;
+        }
+        
+        #app .mingzhu-depth .mingzhu-show-right .el-radio__label {
+            font: 0.16rem/0.18rem "PingFangSC-Regular";
+            color: #666666 !important;
+        }
+        
+        #app .mingzhu-depth .el-checkbox__label {
+            margin-right: 0.5rem;
+            padding-left: 0;
+        }
+        
+        #app .mingzhu-depth .el-checkbox+.el-checkbox {
+            margin-left: 0;
+        }
+        
+        #app .mingzhu-depth .el-input-number {
+            width: auto;
+        }
+        
+        .container .el-checkbox__input.is-checked .el-checkbox__inner,
+        .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+            background-color: #000 !important;
+            border-color: #000 !important;
+        }
+        /* textarea */
+        
+        .mingzhu-depth .program-introduction-requirements .el-textarea .el-textarea__inner {
+            background: #F8F8F8;
+            border-radius: 4px;
+        }
+        
+        .mingzhu-depth .el-checkbox-group {
+            padding: 0.1rem;
+        }
+        
+        .mingzhu-show-other-input .el-input .el-input__inner {
+            background: #F8F8F8;
+            border-radius: 4px;
+        }
+        
+        .container .el-checkbox__label {
+            vertical-align: middle !important;
+        }
+        
+        .open-tender-radio .el-radio {
+            margin-top: 30px;
+        }
+        /* ----------设计大咖详情页------------- */
+        
+        .designMasterDetails .el-tabs__header {
+            margin: 0;
+            text-align: center;
+        }
+        
+        .designMasterDetails .el-tabs__nav {
+            float: none;
+            text-align: center;
+        }
+        
+        .designMasterDetails .el-tabs__active-bar {
+            background-color: transparent;
+        }
+        
+        .designMasterDetails .el-tabs__active-bar {
+            background-color: transparent;
+        }
+        
+        .designMasterDetails .el-tabs__item.is-active {
+            border-bottom: 2px solid #333333;
+            font-size: 0.2rem;
+            color: #333333 !important;
+            font-family: PingFangHK-Medium;
+        }
+        
+        .designMasterDetails .el-tabs__item {
+            padding: 0;
+            margin-right: 0.8rem !important;
+            font-size: 0.2rem;
+            color: #999999;
+            font-family: PingFangHK-Regular;
+        }
+        
+        .designMasterDetails .el-tabs__item:hover {
+            color: #999999;
+        }
+        /* 案例详情页 */
+        
+        .caseDetails .caseContent .el-message-box {
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 4px;
+            font-size: 18px;
+            -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+            text-align: left;
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        
+        .caseDetails .caseContent .el-message-box__headerbtn .el-message-box__close {
+            color: #000;
+        }
+        
+        .caseDetails .caseContent .el-message-box__btns {
+            background: transparent;
+            color: transparent;
+        }
+        
+        .caseDetails .caseContent .el-button--primary {
+            color: transparent;
+            line-height: 0;
+            background-color: transparent;
+            border-color: transparent;
+        }
+        /* 身份选择页面 */
+        
+        .selectType .el-alert__content {
+            margin: auto;
+        }
+        
+        .selectType .el-form-item {
+            margin-top: 0.1rem;
+        }
+        
+        .selectType .el-form-item {
+            margin-top: 0.1rem;
+        }
+        /* 复选框样式 */
+        
+        #app .el-checkbox__input.is-checked .el-checkbox__inner,
+        #app .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+            background-color: #000000;
+            border-radius: 1.56px;
+            border-color: #000000 !important;
+        }
+        
+        #app .el-checkbox__inner {
+            display: inline-block;
+            position: relative;
+            border: 1px solid #949db1;
+            border-radius: 2px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            background-color: #fff;
+            z-index: 1;
+            transition: border-color 0.25s;
+            height: 0.14rem;
+            width: 0.14rem;
+        }
+        
+        #app .el-checkbox__inner::after {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            content: "";
+            border: 1px solid #f2cd89;
+            border-left: 0;
+            border-top: 0;
+            height: 0.07rem;
+            left: 0.04rem;
+            position: absolute;
+            top: 0.01rem;
+            -webkit-transform: rotate(45deg) scaleY(0);
+            transform: rotate(45deg) scaleY(0);
+            width: 0.03rem;
+            -webkit-transition: -webkit-transform 0.15s ease-in 0.05s;
+            transition: -webkit-transform 0.15s ease-in 0.05s;
+            -webkit-transform-origin: center;
+            transform-origin: center;
+        }
+        
+        #app .el-checkbox__input.is-checked .el-checkbox__inner::after {
+            transform: rotate(45deg) scaleY(1);
+        }
+        /* 登录注册页面 */
+        
+        .register .el-checkbox__input {
+            font-size: 0.14rem;
+        }
+        
+        .register .remember .el-checkbox__inner,
+        .autoLogin .el-checkbox__inner {
+            width: 0.14rem;
+            height: 0.14rem;
+        }
+        /* 案例+任务大厅+设计师搜索页面 */
+        /* .designers .el-checkbox__label,
+.taskHall .el-checkbox__label, */
+        /* .checkCase .el-checkbox__label */
+        
+        #app .el-checkbox__label {
+            font-family: PingFangSC-Regular;
+            font-size: 1rem;
+            color: #666666;
+            letter-spacing: 0;
+            text-align: left;
+            line-height: 1.125rem;
+            margin-left: 0.625rem;
+        }
+        
+        .designers .el-form-item__label,
+        .taskHall .el-form-item__label,
+        .checkCase .el-form-item__label {
+            font: 1rem/1.125rem "PingFangHK-Medium";
+            color: #333333;
+            text-align: left !important;
+        }
+        
+        .designers .el-form-item__content,
+        .taskHall .el-form-item__content,
+        .checkCase .el-form-item__content {
+            font: 1rem/1.125rem "PingFangSC-Regular";
+            color: #666666;
+            text-align: left;
+        }
+        
+        .designers .el-checkbox__input.is-checked+.el-checkbox__label,
+        .taskHall .el-checkbox__input.is-checked+.el-checkbox__label,
+        .checkCase .el-checkbox__input.is-checked+.el-checkbox__label {
+            font: 1rem/1.125rem "PingFangSC-Regular";
+            color: #666666;
+            text-align: left;
+        }
+        
+        #app .el-pagination.is-background .btn-next,
+        #app .el-pagination.is-background .btn-prev,
+        #app .el-pagination.is-background .el-pager li {
+            background: #ffffff;
+            border: 1px solid #d9d9d9;
+            border-radius: 0.3125rem;
+            font: 0.75rem/1.625rem "PingFangSC-Regular";
+            color: #666666;
+            text-align: center;
+            width: 1.75rem;
+            height: 1.75rem;
+        }
+        
+        #app .el-pagination.is-background .el-pager li.active {
+            background-image: linear-gradient(-90deg, #F3DAA4 6%, #F2CD89 98%);
+            border: none;
+        }
+        
+        .el-pagination .btn-next .el-icon,
+        .el-pagination .btn-prev .el-icon {
+            font-family: PingFangSC-Regular;
+            font-size: 12px;
+            color: #666666;
+            text-align: center;
+            line-height: 18px;
+        }
+        /* .designMasterDetails .el-pagination__sizes .el-input .el-input__inner:hover,
+.taskHall .el-pagination__sizes .el-input .el-input__inner:hover,
+.checkCase .el-pagination__sizes .el-input .el-input__inner:hover  */
+        
+        .el-pagination__sizes .el-input .el-input__inner:hover {
+            border-color: #d9d9d9;
+        }
+        /* .designMasterDetails .el-select .el-input.is-focus .el-input__inner,
+.checkCase .el-select .el-input.is-focus .el-input__inner */
+        
+        #app .el-input.is-focus .el-input__inner {
+            border-color: #d9d9d9 !important;
+        }
+        /* .designMasterDetails .el-input.is-active .el-input__inner,
+.el-input__inner:focus,
+.designMasterDetails .el-select .el-input__inner:focus,
+
+.taskHall .el-input.is-active .el-input__inner,
+.el-input__inner:focus,
+.taskHall .el-select .el-input__inner:focus,
+.checkCase .el-input.is-active .el-input__inner,
+.el-input__inner:focus,
+.checkCase .el-select .el-input__inner:focus */
+        
+        #app .el-input.is-active .el-input__inner,
+        #app .el-input__inner:focus,
+        #app .el-select .el-input__inner:focus {
+            border-color: #d9d9d9;
+        }
+        
+        #app .el-input__inner {
+            background: #F8F8F8;
+            border: 1px solid #F8F8F8 !important;
+        }
+        
+        #app .el-select-dropdown__item.selected,
+        #app .el-select-dropdown__item.selected.hover {
+            color: #666666 !important;
+            font-size: 12px;
+            background-color: #F8F8F8;
+        }
+        /* 设计师搜索页面 */
+        
+        .designers .el-form-item {
+            /* margin-bottom: 20px; */
+            margin-bottom: 0.15rem;
+        }
+        /* 分页 */
+        
+        .el-select-dropdown__item.selected {
+            color: #606266 !important;
+        }
+        
+        .el-tabs__nav-wrap::after {
+            background-color: transparent !important;
+        }
+        
+        #app .el-select-dropdown__item.selected {
+            color: #606266 !important
+        }
+        
+        #app .el-tabs__nav-wrap::after {
+            background-color: transparent !important;
+        }
+        /* input */
+        
+        #app .el-input-number.is-controls-right .el-input__inner {
+            padding-left: 0.15rem;
+            padding-right: 0.5rem;
+        }
+        /* 招标页面样式 */
+        
+        .recommendCase .el-input-number__decrease,
+        .recommendCase .el-input-number__increase {
+            z-index: -1;
+        }
+        
+        .mingzhu-services-left ul li .el-input__inner,
+        .mingzhu-service-time .el-input__inner {
+            background: #f8f8f8;
+        }
+        
+        .recommendCase .el-input__inner {
+            background: #f8f8f8;
+            border-radius: 4px;
+        }
+        
+        .recommendCase .el-input-number {
+            width: auto;
+        }
+        
+        #app .solicitation-content-left .el-radio__label {
+            font: 0.16rem/0.18rem "PingFangSC-Regular";
+            color: #666666;
+        }
+        /* 开标细节 */
+        
+        #app .mingzhu-main .el-radio__label {
+            font: 0.16rem/0.18rem 'PingFangSC-Regular';
+            color: #666666 !important;
+        }
+        
+        #app .mingzhu-main .opeing-detail-time .el-input__inner {
+            background: #f8f8f8;
+            border-radius: 4px;
+        }
+        
+        #app .mingzhu-main .opeing-detail-time .el-radio {
+            margin: 0.2rem 0;
+        }
+        
+        #app .mingzhu-main .opeing-detail-time .liveMethods .el-checkbox__label {
+            font: 0.16rem/0.18rem 'PingFangSC-Regular';
+            color: #666666;
+        }
+        
+        #app .mingzhu-main .bidsRules .el-checkbox__inner {
+            margin-right: 0.1rem;
+            border: 1px solid #D9D9D9;
+            border-radius: 2px;
+        }
+        
+        #app .recommendCase .el-input-number .el-input__inner {
+            text-align: left;
+        }
+        /* 开标深度 */
+        
+        #app .mingzhu-depth .el-form-item {
+            margin-bottom: 0;
+        }
+        /* 开标细节 */
+        
+        #app .selectliveMethods .el-form-item__content {
+            line-height: 0;
+        }
+        
+        #app .mingzhu-main .selectliveMethods .el-radio {
+            margin: 0;
+        }
+        
+        #app .mingzhu-main .bidsRules .el-form-item__error {
+            text-align: center;
+            position: relative;
+        }
+        
+        .CommissionedDesign .body-detail .el-form-item__label {
+            font-size: 0.16rem;
+            color: #999999;
+        }
+        /* 单选框样式 */
+        
+        #app .el-radio__input.is-checked .el-radio__inner {
+            border-color: #000000;
+            background: #000000;
+        }
+        
+        #app .el-radio__inner::after {
+            background-image: linear-gradient(-90deg, #F3DAA4 6%, #F2CD89 98%);
+        }
+        
+        #app .el-radio__inner:hover {
+            border: 1px solid #dcdfe6;
+        }
+        
+        .CommissionedDesign .body-detail .el-radio__input.is-checked+.el-radio__label {
+            font-size: 0.16rem;
+            color: #666666;
+        }
+        
+        .CommissionedDesign .body-detail .el-radio__label {
+            font-size: 0.16rem;
+            color: #666666;
+        }
+        
+        #app .el-button:hover {
+            color: #606266;
+        }
+        
+        #app .el-radio+.el-radio {
+            margin-left: 0.3rem;
+        }
+        /* 设计师注册页 */
+        
+        #app .desinger .designer-submit-info .el-button {
+            font-size: 0.14rem !important;
+            padding: 0.1rem !important;
+        }
+        
+        .mingzhu-depth .program-introduction-requirements .el-textarea .el-textarea__inner {
+            font-family: Helvetica, Tahoma, 'pingFangHK-Regular', 'PingFang SC', 'Microsoft YaHei', SimHei, Arial !important;
+        }
+        
+        #app .designer .el-upload-dragger {
+            width: 3.424rem;
+            height: 2.16rem;
+        }
+         #app .upload-demo .el-upload-dragger {
+            width: 25rem;
+            height: 14rem;
+        }
+
+       
+        /* 邀请项目 */
+        
+        .invite-dialog .el-dialog__title {
+            padding-bottom: 0.05rem;
+            border-bottom: 3px solid black;
+        }
+        
+        .invite-dialog .el-dialog__wrapper .el-checkbox {
+            /* width: 1.5rem; */
+            margin: 0 0.5rem 0.2rem 0 !important;
+        }
+        
+        .invite-dialog .el-dialog__wrapper .el-checkbox+.el-checkbox {
+            margin-left: 0 !important;
+        }
+        
+        #app .companyInformation .el-upload-dragger {
+            width: 3.424rem;
+            height: 2.16rem;
+        }
+        /* 首页消息 */
+        
+        #app .el-header .el-badge__content {
+            background-color: #f56c6c;
+            border-radius: 50%;
+            color: #fff;
+            display: inline-block;
+            font-size: 0.10rem;
+            height: 0.17rem;
+            line-height: 0.17rem;
+            padding: 0 0.06rem;
+            text-align: center;
+            white-space: nowrap;
+            border: 1px solid #fff;
+        }
+        /* 设计师页面最大宽度 */
+        
+        @media only screen and (min-width: 1600px) {
+            .routerView .body {
+                max-width: 1200px;
+                margin: 0.2rem auto !important;
+            }
+        }
+        
+        .ql-snow strong {
+            font-weight: bold;
+        }
+        
+        .ql-snow em {
+            font-style: italic;
+        }
+        /* 弹出提示样式重置 */
+        .el-message{
+            top:0!important;
+            width: 100%!important;
+            height: 50px!important;
+            padding: .75rem 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: .25rem;
+            /* -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            position: relative;
+            overflow: hidden;
+            margin: 0 0 6px;
+            padding: 15px 15px 15px 50px;
+            width: 18.75rem;
+            background-position: 15px center;
+            background-repeat: no-repeat;
+            opacity: 0.95;
+            filter: alpha(opacity=95); */
+        }
+        .el-message .el-message__icon{
+            display: none!important;
+            color: #fff!important;
+        }
+        .el-message .el-message__content{
+            color: inherit!important;
+            font-size: 1rem;
+        }
+        /* .el-message:hover {
+            -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-transition: 0.45s;
+            transition: 0.45s;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            cursor: pointer;
+        } */
+        .el-message.el-message--info{
+            color: #0c5460!important;
+            background-color: #d1ecf1!important;
+            border-color: #bee5eb;
+        }
+        .el-message.el-message--error{
+            color: #721c24!important;
+            background-color: #f8d7da!important;
+            border-color: #f5c6cb;
+        }
+        .el-message.el-message--success{
+            color: #155724!important;
+            background-color: #d4edda!important;
+            border-color: #c3e6cb;
+        }
+        .el-message.el-message--success{
+            color: #856404!important;
+            background-color: #fff3cd!important;
+            border-color: #ffeeba;
+        }
